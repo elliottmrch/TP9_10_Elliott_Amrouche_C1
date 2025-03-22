@@ -19,14 +19,6 @@ $sqlProfs->execute();
 $resProfs = $sqlProfs->fetchAll();
 ?>
 
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Liste des étudiants, classes et professeurs</title>
-</head>
-
 <body>
     <h1>Liste des étudiants</h1>
     <ul>
@@ -75,5 +67,3 @@ $resProfs = $sqlProfs->fetchAll();
         <button type="submit">Valider</button>
     </form>
 </body>
-
-</html>

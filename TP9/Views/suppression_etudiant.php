@@ -24,4 +24,3 @@ if (isset($_GET['id'])) {
 } else {
     echo "ID d'étudiant non fourni";
 }
-?>

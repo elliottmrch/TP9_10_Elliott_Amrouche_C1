@@ -29,14 +29,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Modifier Étudiant</title>
-</head>
-
 <body>
     <h1>Modifier un Étudiant</h1>
     <form method="post">
@@ -59,5 +51,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </form>
     <a href="../index.php">Retour</a>
 </body>
-
-</html>
