@@ -24,18 +24,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         'id' => $id
     ]);
 
-    echo "<br>Modification réussie ! <a href='../index.php'>Retour</a>";
+    echo "<br>Modification réussie ! <a href='../dashboard.php'>Retour</a>";
     exit;
 }
 ?>
-
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Modifier Étudiant</title>
-</head>
 
 <body>
     <h1>Modifier un Étudiant</h1>
@@ -57,7 +49,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <button type="submit">Modifier</button>
     </form>
-    <a href="../index.php">Retour</a>
+    <a href="../dashboard.php">Retour</a>
 </body>
-
-</html>

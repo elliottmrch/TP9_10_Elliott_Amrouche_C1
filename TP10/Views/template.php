@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <title><?= $title ?? 'Mon site' ?></title>
@@ -8,7 +9,9 @@
     <script defer src="https://cdn.tailwindcss.com"></script>
     <script defer src="tailwind.config.js"></script>
 </head>
+
 <body>
     <?= $content ?? '' ?>
 </body>
+
 </html>

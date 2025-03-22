@@ -13,7 +13,7 @@ if (isset($_GET['id'])) {
         $sqlDelete = $dbPDO->prepare("DELETE FROM etudiants WHERE id = :id");
         $sqlDelete->bindParam(':id', $id, PDO::PARAM_INT);
         if ($sqlDelete->execute()) {
-            header("Location: ../index.php");
+            header("Location: ../dashboard.php");
             exit();
         } else {
             echo "Erreur lors de la suppression de l'étudiant";
@@ -24,4 +24,3 @@ if (isset($_GET['id'])) {
 } else {
     echo "ID d'étudiant non fourni";
 }
-?>

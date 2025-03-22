@@ -19,7 +19,6 @@ try {
         $user = $resultat->fetch();
 
         if ($user['password'] === sha1($password)) {
-            // Stocker l'utilisateur en session
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['user_email'] = $user['email'];
 

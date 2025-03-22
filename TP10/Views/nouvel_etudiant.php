@@ -12,7 +12,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $sql->bindParam(':id_classe', $id_classe);
     $sql->execute();
 
-    header('Location: ../index.php');
+    header('Location: ../dashboard.php');
     exit();
 }
-?>

@@ -19,7 +19,9 @@ $sqlProfs->execute();
 $resProfs = $sqlProfs->fetchAll();
 ?>
 
-<a href="login.php">Se connecter</a><p>Accès admin > id : admin@admin / mdp : admin</p>
+<a href="register.php">S'inscrire</a>
+<a href="login.php">Se connecter</a>
+<p>Créer un compte pour modifier la base de donnée</p>
 <div class="relative overflow-x-auto">
     <h1 class="text-lg font-bold">Liste des étudiants</h1>
     <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
